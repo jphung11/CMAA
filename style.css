@@ -1,0 +1,213 @@
+/** Logo in navbar **/
+.navbar-brand {
+  background: url(pics/CMAA%20LOGO_final_real_gray.png) center / contain no-repeat;
+  width: 130px;
+}
+
+/** Header banner **/
+.masthead{
+    height: 200px;
+    width: 100%;
+    background-image:url("pics/condensedbanner2.JPG");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: 0px -94px;
+}
+
+/** Makes tabs for navbar even **/
+.tab {
+    width: 225px;
+    text-align: center;
+}
+
+.tab a {
+    color: white;
+}
+
+/** Makes titles bold and shifts left**/
+.title {
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+/** Centers the calendar on the home page **/
+#calendar {
+    text-align: center;
+}
+
+
+/** Makes navbar sticky to top on scroll **/
+.affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+}
+
+.navbar {
+      margin-bottom: 0px;
+}
+
+.affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+}
+
+/** Makes clark sponsor sign centered **/
+#clark {
+    text-align: center;
+}
+
+/** Footer **/
+.followus {
+    display: inline-flex;
+}
+
+#follow {
+    float: left;
+    padding: 3px;
+    color: white;
+    font-weight: bold;
+    align-content: center;
+    margin-top: 6px;
+}
+
+.org {
+    float: left;
+    padding: 3px;
+    color: white;
+    align-content: center;
+    margin-top: 6px;
+}
+
+#fb{
+    display:inline-block;
+    float:right;
+    text-align: right;
+    align-content: center;
+    padding: 3px;
+    margin-top: 1px;
+    width: 35px;
+    height: 35px;
+    position: 0px 25px;
+}
+
+#follow {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    float: right;
+    align-content: center;
+    margin-top: 6px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+.under {
+  /* Margin bottom by footer height */
+  margin-bottom: 45px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 35px;
+  background-color: #222222;
+}
+
+.fbfollowus {
+    text-align: right;
+}
+
+/** officer pics **/
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.gallery-item {
+  margin: 20px;
+  border: 5px solid #FFF;
+}
+
+.gallery-item .thumbnail {
+
+}
+
+/** Specifies font for officer names **/
+.namestitle {
+    text-decoration: none;
+    font-weight: bold;
+    padding-bottom: 1px;
+    font-size: 100%;
+    text-align: center;
+    color: #222222;
+}
+
+/** Contact info text edits **/
+.coninfo, .sub {
+    padding-left: 60px;
+}
+
+.coninfo a {
+    text-decoration: none;
+    color: #222222;
+}
+
+#facad {
+    padding-left: 20px;
+}
+
+#advisorTable {
+    margin-top: 20px;
+}
+
+/** Centers images in slider **/
+.carouselimage {
+    width: auto;
+    height: 500px;
+    max-height: 500px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+/** Adds padding below slideshow **/
+.slideshow {
+    padding-bottom: 20px;
+}
+
+/** Indenting profile info **/
+.profileinfo {
+    margin-left: 25px;
+}
+
+.info {
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+/** Linked in line for officer pages **/
+.linkedinpic {
+    margin-left: 8px;
+}
+
+.linkedin {
+    color: black;
+}
+
+.linkedinprofile {
+    margin-top: 25px;
+}
+
+/** Shifts bio on officer pages down (space between pic and bio) **/
+#bio {
+    margin-top: 15px;
+}
